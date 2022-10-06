@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="feature-card">
-      <router-link to="/movie/8277479f">
+      <router-link to="/movie/tt7221388">
         <img
           src="@/images/Cobra-Kai.jpg"
           alt="Cobra Kai Poster"
@@ -159,8 +159,6 @@ export default {
   }
 
   .movie-list {
-    display: flex;
-    flex-wrap: wrap;
     margin: 0px 8px;
 
     .movie {
@@ -213,5 +211,40 @@ export default {
       }
     }
   }
+}
+
+.movie-list {
+  margin: 0px 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.product-image {
+  position: relative;
+  display: block;
+}
+.product-image {
+  position: relative;
+  display: block;
+
+  img {
+    display: block;
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+  }
+}
+.type {
+  position: absolute;
+  padding: 8px 16px;
+  background-color: darkred;
+  color: white;
+  bottom: 16px;
+  left: 0px;
+  text-transform: capitalize;
 }
 </style>
