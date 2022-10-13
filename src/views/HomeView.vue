@@ -247,4 +247,19 @@ export default {
   left: 0px;
   text-transform: capitalize;
 }
+.detail {
+  background-color: darkred;
+  padding: 8px 16px;
+  flex: 1 1 100%;
+  border-radius: 0px 0px 8px 8px;
+}
+.year {
+  color: white;
+  font-size: 14px;
+}
+h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
 </style>
